@@ -36,7 +36,7 @@ h1, h1 a, h1 a:link, h1 a:hover, h1 a:active, h1 a:visited{
     text-align: center;
     font-weight: bold;
     color: #FFF;
-    font-size: 1.5em;
+    font-size: 1.6em;
     background-color: var(--Green_1);
     text-decoration: none;
     width: 100%;
@@ -52,8 +52,8 @@ h1, h1 a, h1 a:link, h1 a:hover, h1 a:active, h1 a:visited{
 }
 
 h1 img{
-    height: 1.2em;
-    width: 1.2em;
+    height: 1.3em;
+    width: 1.3em;
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -78,14 +78,14 @@ h2{
     text-align: center;
     background-color: var(--Green_1);
     padding: 0.8em 0.7em;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: bold;
 }
 
 h3{
     background-color: var(--Green_2);
     padding: 0.4em 1em 0.4em 1em;
-    font-size: 1.5em;
+    font-size: 1.7em;
     display: block;
     font-weight: bold;
     margin-right: 2.5%;
@@ -95,7 +95,7 @@ h3{
 
 h4{
     padding: 0.3em 0.7em;
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: bold;
     padding: 0;
 }
@@ -103,7 +103,7 @@ h4{
 p{
     margin: 6% 5%;
     letter-spacing: 0.025em;
-    font-size: 1.05em;
+    font-size: 1.3em;
     line-height: 1.4em;
 }
 
@@ -111,7 +111,7 @@ nav ol{
     margin: 5% 2%;
     letter-spacing: 0.02em;
     word-spacing: 0.01em;
-    font-size: 1.05em;
+    font-size: 1.4em;
     line-height: 1.3em;  
 }
 
@@ -119,7 +119,7 @@ ol{
     margin: 5% 2%;
     letter-spacing: 0.03em;
     word-spacing: 0.01em;
-    font-size: 1.05em;
+    font-size: 1.4em;
     line-height: 1.4em;  
 }
 
@@ -156,7 +156,7 @@ nav{
 
 nav ul{
     list-style: none;
-    font-size: 1.2em;
+    font-size: 1.4em;
     padding: 0;
 }
 
@@ -175,7 +175,7 @@ nav ul{
     display: inline-block;
     letter-spacing: 0.04em;
     word-spacing: 0.03em;
-    font-size: 1.05em;
+    font-size: 1.3em;
     line-height: 1.6em;
 }
 
@@ -204,7 +204,7 @@ date{
 question{
     background-color: var(--Green_2);
     padding: 0.6em 1em 0.6em 1em;
-    font-size: 1.15em;
+    font-size: 1.3em;
     font-weight: bold;
     display: block;
     margin-right: 2.5%;
@@ -446,15 +446,16 @@ branch p{
     }
 
     p{
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     #preface{
         margin: 2.5em 2em;
+        font-size: 1.4em;
     }
 
     question{
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 
     #Wrist, #Accents, #Delecluse, #Green, #Morello, #TheRoll, #StickControl, #Syncopation{
