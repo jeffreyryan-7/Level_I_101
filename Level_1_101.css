@@ -12,7 +12,7 @@
 }
 
 *{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     box-sizing: border-box;
     overflow-wrap: anywhere;
     margin: 0;
@@ -32,7 +32,7 @@ body{
 }
 
 h1, h1 a, h1 a:link, h1 a:hover, h1 a:active, h1 a:visited{
-    font-family: 'Akk';
+    font-family: serif;
     text-align: center;
     font-weight: bold;
     color: #FFF;
@@ -203,7 +203,7 @@ date{
 
 question{
     background-color: var(--Green_2);
-    padding: 0.6em 1em 0.6em 1em;
+    padding: 0.6em 3em 0.6em 2em;
     font-size: 1.3em;
     font-weight: bold;
     display: block;
@@ -223,6 +223,7 @@ img{
     width: 100%;
     height: 16em;
     padding: 5%;
+    max-height: 750px;
 }
 
 
@@ -282,9 +283,6 @@ left img{
     height: 100%;
     width: 100%;
     padding: 0;
-    padding: left;
-    background-color: var(--Green_1);
-    background-blend-mode: darken;
 }
 
 right{
@@ -435,7 +433,7 @@ branch p{
     z-index: 2;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 900px) {
     h2{
         font-size: 1.8em;
     }
@@ -466,5 +464,15 @@ branch p{
     branch p{
         font-size: 4em;
         padding: 10% 0;
+    }
+
+    container{
+        grid-template-columns: none;
+    }
+
+    left img{
+        height: 100%;
+        width: 50%;
+        margin: auto;
     }
 }
