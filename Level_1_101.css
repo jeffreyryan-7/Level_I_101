@@ -125,6 +125,7 @@ ol{
 
 ol li{
     margin: 0.5em;
+    font-size: 0.8em;
 }
 
 ol.sessions{
@@ -170,7 +171,7 @@ nav ul{
     font-family: 'Akk';
     text-align: left;
     background-color: #FFF;
-    padding: 10% 11%;
+    padding: 10% 6%;
     margin: 2.5em 1.8em;
     display: inline-block;
     letter-spacing: 0.04em;
@@ -292,7 +293,7 @@ right{
 right li{
     line-height: 1.2;
     font-size: 1.25em;
-    padding: 0 1em 0.7em 0;
+    padding: 0 1em 0.3em 0;
 }
 
 #Wrist{
